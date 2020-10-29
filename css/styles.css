@@ -359,4 +359,31 @@ header{
     .watch{
         background: url("/images/hero/watch/watch_small.jpg");
     }
+    .hero{
+        height: 50rem;
+        background-size: auto 54.8rem;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+    .title{
+        padding: 3.7rem;
+    }
+    .title-sub-heading{
+        font-size: 1.9rem;
+    }
+    .title-heading-watch{
+        margin-top: -.5rem;
+        margin-bottom: 0;        
+    }
+
+    .title-price{
+        font-size: 1.4rem;
+    }
+    .cta{
+        margin-top: .7rem;
+    }
+    .cta-link{
+        font-size: 1.9rem;
+    }
+
 }
