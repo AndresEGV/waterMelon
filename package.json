@@ -1,0 +1,19 @@
+{
+  "name": "watermelon",
+  "version": "1.0.0",
+  "description": "project coursera",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresEGV/waterMelon.git"
+  },
+  "author": "Andres Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndresEGV/waterMelon/issues"
+  },
+  "homepage": "https://github.com/AndresEGV/waterMelon#readme"
+}
