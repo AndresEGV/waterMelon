@@ -159,21 +159,10 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script> 
-        $(document).ready(function(){
-            $('#search').click(function(){
-                $('.menu-item').addClass('hide-item');
-                $('.search-form').addClass('active');
-                $('.close').addClass('active');
-                $('#search').hide();
-            })
-            $('.close').click(function(){
-                $('.menu-item').removeClass('hide-item');
-                $('.search-form').removeClass('active');
-                $('.close').removeClass('active');
-                $('#search').show();
-            })
-
-        });   
+       const selectElement = (element) => document.querySelector(element);
+       selectElement('.mobile-menu').addEventListener('click', () =>{
+            selectElement('header').classList.toggle('active');
+       });
 
     </script>
 </html>
